@@ -1,0 +1,6 @@
+CREATE TABLE `students` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `year` INT NOT NULL,
+    `name` VARCHAR(50) NOT NULL,
+    PRIMARY KEY (`id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
